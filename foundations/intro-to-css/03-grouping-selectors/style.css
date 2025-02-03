@@ -1,0 +1,13 @@
+.dugme#prvi {
+    background-color: black;
+    color: white;
+}
+
+.dugme#drugi {
+    background-color: yellow;
+}
+
+.dugme {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
