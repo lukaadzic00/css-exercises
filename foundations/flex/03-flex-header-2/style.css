@@ -12,6 +12,25 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.levi {
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+  align-items: center;
+
+}
+
+.desni {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .profile-image {
@@ -30,11 +49,12 @@ body {
 }
 
 button {
-  border: none;
+  border: 1px solid yellow;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 4px 24px;
+  height: 60%;
 }
 
 a {
@@ -45,4 +65,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 20px;
 }
