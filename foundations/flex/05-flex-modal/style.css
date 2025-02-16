@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -66,4 +67,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.jedan {
+  display: flex;
+}
+
+.jedan button {
+  margin-left: auto;
+}
+
+.levi, .desni {
+  box-sizing: border-box;
+  margin: 15px;
+  
+}
+
+.desni {
+  margin-left: 0;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.jedan, .dva {
+  margin-bottom: 10px;
 }
